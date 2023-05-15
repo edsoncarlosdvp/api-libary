@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zNCSosZ3OB6ab8g+JkxRgExDBPfPgBEPbGSZzOJxCueXyMGWmj00TvsDmsWOmg7wBvFmQm6CEc3QvmeiDW3mvw==",
+  "dgSpecHash": "t0Te3jx8tXzGq809Z9zGBtzAO6NsNsyxruyNGFEDCFDPXNYRdZKJhL0wz9XUgKdl1Iar3zjSKywxkpyCQBHIbQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\DTI\\Pocs\\C#\\LibaryApi\\LibaryApi.csproj",
+  "projectFilePath": "C:\\Projects\\DTI\\Pocs\\C#\\libaryApi\\LibaryApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DTI Digital\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DTI Digital\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

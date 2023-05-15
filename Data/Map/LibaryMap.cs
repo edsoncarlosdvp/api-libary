@@ -12,6 +12,7 @@ namespace Libary.Data.Map
             builder.Property(libary => libary.Name).IsRequired().HasMaxLength(255);
             builder.Property(libary => libary.Author).IsRequired().HasMaxLength(255);
             builder.Property(libary => libary.Description).HasMaxLength(2000);
+            builder.Property(libary => libary.ImageUrl).HasMaxLength(2000);
         }
     }
 }

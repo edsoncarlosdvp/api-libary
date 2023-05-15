@@ -44,6 +44,7 @@ namespace Libary.Controllers
                 Name = models.Name,
                 Author = models.Author,
                 Description = models.Description,
+                ImageUrl = models.ImageUrl,
             };
 
             try
@@ -75,6 +76,7 @@ namespace Libary.Controllers
                 libary.Name = models.Name;
                 libary.Author = models.Author;
                 libary.Description = models.Description;
+                libary.ImageUrl = models.ImageUrl;
 
                 context.Libary.Update(libary);
                 await context.SaveChangesAsync();
@@ -103,6 +105,7 @@ namespace Libary.Controllers
                 libary.Name = models.Name;
                 libary.Author = models.Author;
                 libary.Description = models.Description;
+                libary.ImageUrl = models.ImageUrl;
 
                 context.Libary.Update(libary);
                 await context.SaveChangesAsync();
