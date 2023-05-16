@@ -5,8 +5,8 @@ Thumbs.db
 
 # CONFIG PROJECT
 appsettings.json
-./bin/*
-./obj/*
+/bin/*
+/obj/*
 
 # IDE
-./vs
+/vs
