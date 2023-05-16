@@ -93,7 +93,6 @@ namespace Libary.Controllers
         [HttpDelete("libary/{id}")]
         public async Task<IActionResult> DeleteAsync(
             [FromServices] LibaryDbContext context,
-            [FromBody] LibaryViewModels models,
             [FromRoute] int id)
         {
             if (!ModelState.IsValid) return BadRequest();
@@ -104,12 +103,7 @@ namespace Libary.Controllers
 
             try
             {
-                libary.Name = models.Name;
-                libary.Author = models.Author;
-                libary.Description = models.Description;
-                libary.ImageUrl = models.ImageUrl;
-
-                context.Libary.Update(libary);
+                context.Libary.Remove(libary);
                 await context.SaveChangesAsync();
                 return Ok("Obra excluída com sucesso!");
             }
