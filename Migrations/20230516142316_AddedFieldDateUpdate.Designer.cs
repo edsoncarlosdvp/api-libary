@@ -4,14 +4,16 @@ using Libary.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace LibaryApi.Migrations
 {
     [DbContext(typeof(LibaryDbContext))]
-    partial class LibaryDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230516142316_AddedFieldDateUpdate")]
+    partial class AddedFieldDateUpdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

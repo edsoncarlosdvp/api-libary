@@ -45,6 +45,7 @@ namespace Libary.Controllers
                 Author = models.Author,
                 Description = models.Description,
                 ImageUrl = models.ImageUrl,
+                DateRegister = DateTime.Now,
             };
 
             try
@@ -77,6 +78,7 @@ namespace Libary.Controllers
                 libary.Author = models.Author;
                 libary.Description = models.Description;
                 libary.ImageUrl = models.ImageUrl;
+                libary.DateUpdatedDb = DateTime.Now;
 
                 context.Libary.Update(libary);
                 await context.SaveChangesAsync();

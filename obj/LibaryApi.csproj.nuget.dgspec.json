@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\DTI\\Pocs\\C#\\libaryApi\\LibaryApi.csproj": {}
+    "C:\\Projects\\DTI\\Pocs\\C#\\LibaryApi\\LibaryApi.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\DTI\\Pocs\\C#\\libaryApi\\LibaryApi.csproj": {
+    "C:\\Projects\\DTI\\Pocs\\C#\\LibaryApi\\LibaryApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\DTI\\Pocs\\C#\\libaryApi\\LibaryApi.csproj",
+        "projectUniqueName": "C:\\Projects\\DTI\\Pocs\\C#\\LibaryApi\\LibaryApi.csproj",
         "projectName": "LibaryApi",
-        "projectPath": "C:\\Projects\\DTI\\Pocs\\C#\\libaryApi\\LibaryApi.csproj",
+        "projectPath": "C:\\Projects\\DTI\\Pocs\\C#\\LibaryApi\\LibaryApi.csproj",
         "packagesPath": "C:\\Users\\DTI Digital\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\DTI\\Pocs\\C#\\libaryApi\\obj\\",
+        "outputPath": "C:\\Projects\\DTI\\Pocs\\C#\\LibaryApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DTI Digital\\AppData\\Roaming\\NuGet\\NuGet.Config",
