@@ -1,0 +1,11 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# CONFIG PROJECT
+appsettings.json
+./bin/*
+./obj/*
+
+# IDE
+./vs
